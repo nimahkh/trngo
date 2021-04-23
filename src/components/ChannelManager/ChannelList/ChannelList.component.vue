@@ -1,6 +1,6 @@
 <template>
   <ul data-cy="channel-list" class="pt-2 px-3 w-full overflow-auto h-96 mb-5">
-    <draggable v-model='channelList' @change="()=>toggleBottom(true)" group="channels">
+    <draggable handle=".dragHandler" v-model='channelList' @change="()=>toggleBottom(true)" group="channels">
       <transition-group>
         <li v-for="channel in channels"
             :key="channel.id"
