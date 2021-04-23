@@ -1,7 +1,7 @@
 <template>
   <div class=" w-full relative text-gray-600 focus-within:text-gray-400">
     <span class="absolute inset-y-0 left-0 flex items-center pl-2">
-          <button v-on:click="search" class="p-1 focus:outline-none focus:shadow-outline">
+          <button id='search_btn' v-on:click="search" class="p-1 focus:outline-none focus:shadow-outline">
             <fa :icon="['fas', 'search']" class="text-gray-400 "/>
           </button>
     </span>
