@@ -24,6 +24,3 @@ npm run lint
 ```
 npm run test:cy
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
