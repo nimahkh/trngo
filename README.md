@@ -1,11 +1,11 @@
-# vue-app
+# vue app
 
 ## Project setup
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Compiles and hot-reloads for development :fire:
 ```
 npm run serve
 ```
@@ -18,6 +18,11 @@ npm run build
 ### Lints and fixes files
 ```
 npm run lint
+```
+
+### Cypress Test :+1:
+```
+npm run test:cy
 ```
 
 ### Customize configuration
