@@ -30,6 +30,7 @@ export default {
     create: function(e){
       if (e.keyCode === 13) {
         this.addChannel(this.searchInput)
+        this.searchInput= ''
       }
     },
     search:function(){
