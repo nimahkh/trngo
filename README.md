@@ -1,5 +1,3 @@
-# vue app
-
 ## Project setup
 ```
 npm install
