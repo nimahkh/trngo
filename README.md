@@ -1,3 +1,6 @@
+## Project Demo :fire:
+You can visit the production mode on : https://github.com/nimahkh/trngo  :+1:
+
 ## Project setup
 ```
 npm install
