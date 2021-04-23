@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
+import {isEmpty} from "../helpers"
 
 Vue.use(Vuex)
 
@@ -42,6 +43,7 @@ export default new Vuex.Store({
             states.showBottom = value
         },
         handleSearch(states, value) {
+            if(isEmpty(value)) return false
             this.commit('getBackup', {channels: states.channels})
             this.commit('toggleBottom', true)
 
@@ -51,6 +53,7 @@ export default new Vuex.Store({
             )
         },
         addChannel(states, channel) {
+            if(isEmpty(channel)) return false
             this.commit('getBackup', {channels: states.channels})
             this.commit('toggleBottom', true)
 
